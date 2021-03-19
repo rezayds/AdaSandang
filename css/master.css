@@ -1,0 +1,162 @@
+@import "materialize.css";
+@import "animate.min.css";
+@import "font-awesome.min.css";
+
+.as-soft {
+    background-color: #fff4ee;
+}
+
+.as-brown {
+    background-color: #3f2a31;
+}
+
+.as-green {
+    background-color: #01a89e;
+}
+
+.as-orange {
+    background-color: #ffb078;
+}
+
+.sec-full {
+    height: 100vh;
+}
+
+.sec-half {
+    height: 50vh;
+}
+
+.sec-a-bit-more-half {
+    height: 75vh;
+}
+
+.as-container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 50%;
+}
+
+.as-divider {
+    border: none;
+    width: 50%;
+    height: 1px;
+    overflow: hidden;
+    background-color: #e0e0e0;
+}
+
+.big-image {
+    background-image: url('../images/slide1.png');
+    height: 700px;
+}
+
+.big-title {
+    padding: 30vh 0 0 200px;
+}
+
+.title {
+    font-family: "Nexa Bold";
+    font-weight: bold;
+    color: white;
+    src: local(Nexa Bold), url("../font/nexa/Nexa-Bold.otf") format("opentype");
+}
+
+.subtitle {
+    font-family: "Nexa Light";
+    color: white;
+    src: local(Nexa Light), url("../font/nexa/Nexa-Light.otf") format("opentype");
+}
+
+.btn-artikel {
+    position: absolute;
+    display: block;
+    padding: 45vh 0 0 200px;
+    color: white;
+}
+
+.btn-olshop {
+    position: absolute;
+    padding: 45vh 0 0 200px;
+    color: white;
+}
+
+.sec-header{
+    border-left: 5px black solid;
+}
+
+.logo-as {
+    width: 250px;
+}
+
+.logo-cust {
+    width: 120px;
+}
+
+.font-1 {
+    font-size: 16px;
+}
+
+.font-1 hr {
+    height: 1px;
+    width: 50px;
+    background-color: #e0e0e0;
+    border: none;
+}
+
+.font-2 {
+    font-size: 20px;
+}
+
+#map {
+    margin: 10px;
+    width:100%;
+    height:300px;
+    background:white;
+}
+
+/* ################################################
+
+################ Mobile CSS #######################
+
+################################################# */
+
+.m-as-divider {
+    border: none;
+    width: 50%;
+    height: 5px;
+    overflow: hidden;
+    background-color: #e0e0e0;
+}
+
+.m-title-container {
+    padding-top: 12vh;
+}
+
+.m-font-title {
+    font-size: 6em;
+}
+
+.m-font-subtitle {
+    font-size: 3em;
+}
+
+.m-font-btn {
+    font-size: 25px;
+}
+
+.m-font-body-title {
+    font-size: 5em;
+}
+
+.m-font-body-content {
+    font-size: 3em;
+}
+
+.m-logo-cust {
+    width: 250px;
+}
+
+#map-mobile {
+    width:100%;
+    height:500px;
+    background:white;
+}
